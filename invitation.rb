@@ -5,10 +5,16 @@
 puts "guest_name?"
 guest_name = gets.strip
 
-puts ""
+puts "party_name?"
 party_name = gets.strip
+
+puts "date?"
 date = gets.strip
+
+puts 'time?'
 time = gets.strip
+
+puts "host_name?"
 host_name = gets.strip
 rsvp_by = gets.strip
 def invite 
