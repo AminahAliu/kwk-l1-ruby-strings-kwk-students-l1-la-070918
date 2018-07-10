@@ -26,4 +26,4 @@ def invite
   puts "Sincerely,"
   puts "   #{host_name}"
 end 
-invite 
+puts invite 
