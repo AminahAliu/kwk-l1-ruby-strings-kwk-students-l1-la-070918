@@ -5,6 +5,7 @@
 puts "guest_name?"
 guest_name = gets.strip
 
+puts ""
 party_name = gets.strip
 date = gets.strip
 time = gets.strip
