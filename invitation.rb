@@ -8,8 +8,9 @@ date = gets.strip
 time = gets.strip
 host_name = gets.strip
 rsvp_by = gets.strip
-def [Invite] 
-  Puts "Dear #{guest_name}"
-  Puts "You are cordially invited to the #{party_name} on #{date} at #{time}. Please RSVP no later than #{rsvp_by}."
-  Puts "Sincerely,"
-  Puts "   #{host_name}"
+def invite 
+  puts "Dear #{guest_name}"
+  puts "You are cordially invited to the #{party_name} on #{date} at #{time}. Please RSVP no later than #{rsvp_by}."
+  puts "Sincerely,"
+  puts "   #{host_name}"
+end 
